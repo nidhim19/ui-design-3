@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+*{
+    font-family: poppins;
+}
+
+
+.allboxes{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    
+}
+
+.firstbox{
+    padding:40px;
+    border-radius: 15px;
+    padding-top: 20px;
+    box-shadow: 0 40px 70px 0 rgb(180, 255, 31);
+}
+
+.secondbox{
+    padding:40px;
+    border-radius: 15px;
+    padding-top: 20px;
+    box-shadow: 0 40px 70px 0 rgb(255, 100, 126);
+}
+.thirdbox{
+    padding:40px;
+    border-radius: 15px;
+    padding-top: 20px;
+    box-shadow: 0 40px 70px 0 rgb(219, 146, 219);
+}
+
+.container{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    margin-bottom:20px;
+}
+
+a{
+    padding:7px 13px;
+    border-radius:20px;
+    box-shadow: 5px black;
+    background-color: rgb(187, 184, 184);
+    padding:10px;
+    text-decoration: none;
+    color:black;
+    
+}
+a:hover, a:active{
+    
+    background-color:black;
+    color: beige;
+    transition:0.5s;}
+.button{
+    display: flex;
+    justify-content:center;
+    margin:50px;
+    padding:10px;
+   
+    
+}
+.secondbox h2{
+    color:rgb(179, 16, 138);
+}
+.box{
+    margin: 0;
+    padding: 0;
+}
+
+#unique{
+    background-color: black;
+    color:beige;
+}
+
+
